@@ -55,9 +55,9 @@
         <AddValue Name="1" Type="REG_SZ" Disabled="false">6</AddValue>
       </AddKey>
       <AddKey Name="SOFTWARE\Policies\Microsoft\Microsoft Antimalware\Signature Updates" Disabled="false">
-        <AddValue Name="SignatureUpdateInterval" Type="REG_DWORD" Disabled="false">4</AddValue>
+        <AddValue Name="SignatureUpdateInterval" Type="REG_DWORD" Disabled="false">1</AddValue>
         <AddValue Name="SignatureUpdateCatchupInterval" Type="REG_DWORD" Disabled="false">1</AddValue>
-        <AddValue Name="FallbackOrder" Type="REG_SZ" Disabled="false">AMDefinitionFallbackOrderFromCM|InternalDefinitionUpdateServer|MicrosoftUpdateServer|MMPC</AddValue>
+        <AddValue Name="FallbackOrder" Type="REG_SZ" Disabled="false">InternalDefinitionUpdateServer|MicrosoftUpdateServer|MMPC</AddValue>
         <AddValue Name="DefinitionUpdateFileSharesSources" Type="REG_SZ" Disabled="false">
         </AddValue>
         <AddValue Name="ScheduleDay" Type="REG_DWORD" Disabled="false">0</AddValue>
